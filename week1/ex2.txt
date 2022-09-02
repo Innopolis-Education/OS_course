@@ -1,0 +1,129 @@
+sudo apt install keepassxc~
+sudo apt install keepassxc
+sudo apt install telegram-desktop
+sudo apt uninstall telegram-desktop
+sudo apt remove telegram-desktop
+sudo apt uninstall telegram-desktop
+sudo apt install telegram-desktop
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install snapd
+sudo snap install whatsapp-for-linux
+sudo snap install pycharm-professional --classic
+sudo apt install gnome-tweaks
+sudo apt install gnome-tweak-tool
+sudo apt install git
+git
+git clone https://github.com/Zeneriode/CoddyPython.git~
+git log in
+git config --global user.name "Zener_085"
+git config --global user.email "zener.085@mail.ru"
+git config --global --list
+git clone https://github.com/Zeneriode/CoddyPython.git
+sudo snap install clion --classic
+git clone https://github.com/Zeneriode/CoddyCpp.git
+gcc --version
+$ sudo apt install build-essential
+sudo apt install build-essential
+gcc --version
+clear
+sudo apt install tmux
+clear
+cd OS_roucse
+cd OS_course/
+touch namelist
+ls
+open namelist 
+sort -n -r namelist > namelist.sorted
+sort namelist > namelist.sorted
+open namelist.sorted 
+sort -r namelist > namelist.sorted 
+open namelist.sorted 
+whoami
+code var/log/pacman.log
+man code
+mna help
+man help
+help help
+help sort
+man sort
+ls
+grep main.c
+help grep
+grep help
+man grep
+ls
+ls >
+ls > filelist
+code filelist
+sudo apt install cod
+sudo apt install code
+sudo apt-get install code
+sudo install code
+head -n 2 2> filename
+clion filename
+clion namelist
+ls | sort namelist
+ls
+ls | sort
+ls | sort | tail -n 3
+ls | sort | tail -n -3
+ls | sort -r | tail -n -3
+ls | sort
+ls | sort | tail -n 3
+ls | sort | head -n 3
+ls | sort | head 3
+ls | sort | head -n 3
+ls
+cd ..
+cd proc
+ls
+ls /proc
+ls /proc -R | grep driver
+find /proc -name "driver" 2> error.txt
+find /proc -name "driver" 2> dev/null
+find /proc -name "driver" 2> /dev/null
+ls
+remove error.txt
+delete error.txt
+rm error.txt
+ls
+touch file
+cat file
+open file
+cat file
+rm file
+cd Desktop
+cd
+cd ~
+ls .
+cat > file.txt
+ls
+open file.txt 
+rm file.txt 
+ls -1
+ls -l
+gedit
+cat
+gedit &
+cat
+nano notes
+nano notes &
+job
+jobs
+ls
+date
+gcc main.c
+sh main.o
+/bin/bash /home/zener/OS_course/week1/ex1.sh
+cd OS_course/
+find /usr/bin/ -name "gcc" | sort -r | tail -n 5
+find /usr/bin/  | sort -r | tail -n 5
+find /usr/bin/ | sort -r | tail -n 5
+find /usr/bin/ | sort -r
+find /usr/bin/ | grep "gcc" | sort -r
+map history
+history --help
+history -w
+/bin/bash /home/zener/OS_course/week1/ex2.sh
+history
+history -w ex2.txt
