@@ -1,0 +1,2 @@
+total 4
+drwxr-x--- 23 zener zener 4096 сен  3 13:19 zener
