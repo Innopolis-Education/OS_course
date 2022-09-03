@@ -1,0 +1,5 @@
+total 16
+-rw-rw-r-- 1 zener zener  118 авг 31 16:37 CMakeLists.txt
+-rw-rw-r-- 1 zener zener   80 авг 31 16:37 main.c
+drwxrwxr-x 5 zener zener 4096 сен  3 13:12 cmake-build-debug
+drwxrwxr-x 2 zener zener 4096 сен  3 13:37 week1
