@@ -1,5 +1,5 @@
-//
-//
+// Copyright 2022 Zener
+// Created by Zener on 9/18/2022.
 //
 
 #include <stdio.h>
