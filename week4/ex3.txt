@@ -1,0 +1,11 @@
+// The results of the first run for 3 fork calls
+When n = 3, there are 8 processes on time. There are no 4 processes only, because come child processes
+(except the last one) has some children too.
+
+// The results of the second run for 5 fork calls
+When n = 5, there are 32 processes on time. The number of processes increases asymptotically, so it means number of
+processes will be 2 in power of n, but it's better to check this hypothesis with more distinct values of n.
+
+// The difference
+While the call with n = 3 creates only 8 processes, n = 5 creates 32 processes. Also time of waiting the ending of
+program increases too due to we wait 5 seconds for each process.
