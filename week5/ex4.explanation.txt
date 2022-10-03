@@ -1,0 +1,4 @@
+The time taken for the calculating is the same when we execute the process from the ex3 and ex4 with 1 thread only.
+But others processes takes more time than the same number of threads from ex3.
+It is because in the ex3 we run some threads in parallel, but in the ex4 we run it dependently, thus, some threads are
+waiting sometimes to continue the execution, but threads from ex3 did not waste time on sleeping.
