@@ -1,0 +1,2 @@
+As we see, time increases as much as number of threads increases.
+That is because the process spends a little time to switch between some threads, thus, execution time increases.
