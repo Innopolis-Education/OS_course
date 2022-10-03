@@ -1,0 +1,5 @@
+m = 1 => time = 4.176685 seconds
+m = 2 => time = 4.251517 seconds
+m = 4 => time = 4.892599 seconds
+m = 10 => time = 7.700012 seconds
+m = 100 => time = 8.771204 seconds
