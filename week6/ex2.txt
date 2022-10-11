@@ -1,0 +1,29 @@
+I compared 2 algorithms by some tests, but here would be the most interesting cases:
+
+Case 1:
+Input
+3
+0
+1000
+0
+204
+4
+41
+
+The first algorithm completed these 3 processes sequentially with no breaks as well as the second did. But there is
+one difference - the first one first complete the hardest process, which takes 1000 ticks, while the second one firstly
+finished the second process and then the third, which were smaller.
+
+Case 2:
+Input
+3
+1
+1
+10
+20
+3
+5
+
+The first algorithm wasted time in ticks 2 - 10, because it cannot take the third process before the second one.
+But the second algorithm complete firstly the third tasks, which was ready in the 3rd tick, thus the second algorithm
+was faster.
