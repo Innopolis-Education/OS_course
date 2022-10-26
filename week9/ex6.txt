@@ -1,0 +1,2 @@
+With 8-KB pages and a 16-bit virtual address space, the number of virtual pages is 2^16/2^13,
+which is 2^3 = 8 entities.

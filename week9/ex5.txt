@@ -1,0 +1,4 @@
+A physical address is address to the real memory cell. It describes allocation of the cell with memory.
+A virtual address is abstract address, which describes allocation of the process' address space.
+If the physical address refers to the real memory data, then the virtual address refers to the memory of the process,
+i.e. it may be not only one data from the real memory.
