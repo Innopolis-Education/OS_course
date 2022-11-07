@@ -1,0 +1,5 @@
+To increase number of hits, we just can to print sequence of same numbers, for example, 1, 1, 1.... and infinite number of times.
+Thus, even if the page frame's size would be 1, the hit ratio would be approximately 99% (only 1 miss will be in this case).
+
+If we want to decrease hit ratio, we can increase number of distinct numbers in the sequence. For example: 1, 2, ... 1000.
+In this case miss ratio would be 100% and hit ratio is 0%.
