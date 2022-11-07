@@ -58,7 +58,7 @@ int aging_algorithm(const int page_frames, const Page references[]) {
         frame[i] = references[i];
         frame[i].r = 0x1 << (i - page_frames + PAGE_BITS);
     }
-    int index;
+    int index = 0;
     for (int i = page_frames; i < PROCESSES; i++) {
         index = page_in_frame(references[i], frame, page_frames);
         if (index == -1) {
@@ -66,7 +66,7 @@ int aging_algorithm(const int page_frames, const Page references[]) {
         } else {
             hit++;
             decrease_r_reg(-1, frame, page_frames);
-            frame[i].r += 0x1 << (PAGE_BITS - 1);
+            frame[index].r += 0x1 << (PAGE_BITS - 1);
         }
     }
     return hit;
@@ -86,8 +86,8 @@ int main(int argc, char *argv[]){
     }
     int hit = aging_algorithm(page_frames, references);
 
-    printf("Hit: %d times\n", hit);
-    printf("Miss: %d times\n", PROCESSES - hit);
+    printf("Hit: %.2f%%\n", (float) hit / PROCESSES * 100);
+    printf("Miss: %.2f%%\n", (float) (PROCESSES - hit) / PROCESSES * 100);
 
     fclose(input);
     return 0;
