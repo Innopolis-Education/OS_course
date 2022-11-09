@@ -1,0 +1,4 @@
+Next 3 lines are taken from https://www.google.com/search?q=
+660 permission means: I (owner) can write and read the file. Group members can write and read the file.
+777 - all can read/write/execute (full access).
+755 - owner can read/write/execute, group/others can read/execute.
