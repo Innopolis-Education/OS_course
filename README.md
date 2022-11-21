@@ -11,3 +11,4 @@ Assignments and exercises from OS course
 - [Week 9](https://github.com/Zener085/OS_course/tree/main/week9) (26.10.2022 - 1.11.2022)
 - [Week 10](https://github.com/Zener085/OS_course/tree/main/week10) (2.11.2022 - 8.11.2022)
 - [Week 11](https://github.com/Zener085/OS_course/tree/main/week11) (9.11.2022 - 15.11.2022)
+- [Week 12](https://github.com/Zener085/OS_course/tree/main/week11) (16.11.2022 - 22.11.2022)
