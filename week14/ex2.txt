@@ -1,0 +1,6 @@
+Deadlock prevention is the mechanism to ensure that at least one of the necessary conditions for
+deadlock can never occur. On the other hand, deadlock avoidance is the mechanism to ensure that the
+system does not enter an unsafe state. Thus, this is the main difference between deadlock prevention
+and deadlock avoidance. (https://pediaa.com/what-is-the-difference-between-deadlock-prevention-and-deadlock-avoidance)
+
+
